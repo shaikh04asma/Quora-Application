@@ -1,0 +1,46 @@
+nav {
+  background-color: rgb(30, 29, 29);
+  height: 50px;
+}
+
+.nav-container .container-fluid,
+ul,
+li,
+nav,
+Link,
+a,
+.nav-container,
+input,
+.icon,
+.navbar-toggler-icon,
+.link,
+.search {
+  background-color: rgb(30, 29, 29);
+}
+div>ul {
+  /* background-color:rgb(30,29 , 29) ; */
+  margin-left: 40px;
+}
+.navbar-collapse>ul>li {
+  /* background-color:rgb(30,29 , 29) ; */
+  margin-left: 1rem;
+  font-size: 25px;
+  list-style: none;
+}
+
+input::placeholder {
+  color: darkgrey !important;
+}
+div .ask-question {
+  background-color: #c41313;
+  border-radius: 15px;
+  height: 50px;
+}
+.button {
+  color: #fff;
+}
+.dropdown-toggle {
+  background-color: #e32323;
+  padding: 3px;
+  border-radius: 20px;
+}

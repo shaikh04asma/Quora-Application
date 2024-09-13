@@ -1,0 +1,65 @@
+ /* Styling for model */
+.model-div{
+    border:2px solid darkgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.model-div,form,textarea,button,div,h4,p,ul{
+    
+     background-color: rgb(30, 29, 29);
+}
+div>.tab-header{
+    /* background-color: rgb(30,29,29) !important; */
+    /* border: 2px solid blue; */
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+
+}
+button>.model-btn1{
+    border-right:1px solid lightgray ;
+}
+.tab-header>button{
+   border: none;
+    font-size: 22px;
+    padding: 5px 30px;
+
+}
+div>ul>li{
+    font-size: 15px;
+    list-style:square;
+    color: darkgray;
+   margin-left: 0px;
+}
+ul{
+    margin-left: 0px;
+    padding: 5px;
+   
+}
+textarea{
+  width: 80%;
+  padding: 20px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  resize: none;
+}
+textarea:active{
+    border: none;
+}
+
+form>button{
+   
+   float: right;
+   margin: 10px;
+
+   padding: 6px 10px;
+   background-color: brown;
+   border: none;
+   border-radius: 5px;
+
+
+}

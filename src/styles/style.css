@@ -1,0 +1,42 @@
+/* post component css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.card-body{
+    background-color: rgb(30, 29, 29);
+    border-radius: 20px;
+}
+.card-body>h4,.card-text,.card-img-top,.btn-group,span{
+    background-color: rgb(30, 29, 29);
+}
+
+div.post-child-container{
+    border-radius:30px ;
+    /* border: 2px solid darkgrey; */
+
+}
+.card-img-top{
+    width: 100% !important;
+    height: 350px;
+}
+.post-title{
+    /* border: 2px solid rgb(250, 247, 247); */
+    font-size: 20px;
+}
+.follow-btn{
+    font-size: 15px;
+    color: rgb(33, 124, 251);
+}
+.poster-name{
+    color: darkgray;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icon{
+    background-color: rgb(30, 29, 29) ;
+
+}
+a.btn:hover{
+    color: #fff;
+}

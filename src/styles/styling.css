@@ -1,0 +1,77 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+.popup {
+  background-color: grey;
+}
+.create-space {
+  max-width: 10% !important;
+  height: fit-content;
+  /* border: 2px solid red; */
+  float: left;
+  margin-left: 10% !important;
+}
+
+.create-space div :hover {
+  cursor: pointer;
+  background-color: rgb(113, 111, 111);
+}
+div .below-space {
+  font-weight: lighter;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.post-section {
+  border: 2px solid #242424;
+  background-color: rgb(30, 29, 29);
+  border-radius: 25px;
+}
+.input-group {
+  background-color: rgb(30, 29, 29);
+}
+div.post-btn {
+  /* border: 2px solid blue; */
+  width: 100%;
+  margin: auto;
+  /* margin-left: 8%; */
+  background-color: rgb(30, 29, 29);
+}
+div.post-btn .btn {
+  color: darkgray;
+  padding: 2px;
+}
+div.post-btn .btn1 {
+  border-right: 2px solid rgb(87, 87, 87);
+}
+div.post-btn .btn2 {
+  border-right: 2px solid rgb(87, 87, 87);
+}
+.post-btn .btn:hover {
+  cursor: pointer;
+  background-color: rgb(113, 111, 111);
+  border-radius: 20px;
+}
+.post-input {
+  border: 2px solid rgb(113, 111, 111);
+  width: 90%;
+
+  border-radius: 15px;
+  border-top-left-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
+  padding: 2px;
+  height: 35px;
+  /* margin-left: 8%; */
+}
+.post-input::placeholder {
+  color: darkgray;
+}
+.input-group > span {
+  border: 2px solid #bb0e0e;
+  margin: 10px;
+}
+span {
+  margin-left: 5px;
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+div.filter{
+    width: 200px;
+    margin-top: 30px !important;
+    /* border: 2px solid red; */
+    float: left;
+    margin-left: 10%;
+    gap: 50% !important;
+   border-radius: 10px;
+}
+
+.filter1{
+    border-bottom: 1px solid rgb(119, 119, 119);
+    
+}
+div.filter-div>div{
+    color: darkgray;
+    font-size: small;
+}
+div.second{
+    /* border: 2px solid blue; */
+   border-radius: 10px;
+    height: fit-content;
+
+}
+div.second>p{
+    width: 500px;
+}
+div.second>.p1{
+    background-color: rgb(12, 12, 99);
+}
